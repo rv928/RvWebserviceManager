@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A698BC1FB2F77C00896785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698BB1FB2F77C00896785 /* AppDelegate.swift */; };
+		48A698C11FB2F77C00896785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A698BF1FB2F77C00896785 /* Main.storyboard */; };
+		48A698C31FB2F77C00896785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A698C21FB2F77C00896785 /* Assets.xcassets */; };
+		48A698C61FB2F77C00896785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A698C41FB2F77C00896785 /* LaunchScreen.storyboard */; };
+		48A698D11FB2F77C00896785 /* RvWebserviceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698D01FB2F77C00896785 /* RvWebserviceManagerTests.swift */; };
+		48A698DC1FB2F77C00896785 /* RvWebserviceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698DB1FB2F77C00896785 /* RvWebserviceManagerUITests.swift */; };
+		48A698EE1FB2F87500896785 /* SpaceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698ED1FB2F87500896785 /* SpaceListController.swift */; };
+		48A698F21FB2F8D000896785 /* SharedWebServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F01FB2F8D000896785 /* SharedWebServiceClass.swift */; };
+		48A698F31FB2F8D000896785 /* RvWebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F11FB2F8D000896785 /* RvWebserviceManager.swift */; };
+		48A698FD1FB2F90600896785 /* MessageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F41FB2F90500896785 /* MessageConstant.swift */; };
+		48A698FE1FB2F90600896785 /* TagIDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F51FB2F90500896785 /* TagIDConstant.swift */; };
+		48A698FF1FB2F90600896785 /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F61FB2F90500896785 /* UIConstant.swift */; };
+		48A699001FB2F90600896785 /* RequestConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F71FB2F90500896785 /* RequestConstant.swift */; };
+		48A699011FB2F90600896785 /* ObjectConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F81FB2F90500896785 /* ObjectConstant.swift */; };
+		48A699021FB2F90600896785 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698F91FB2F90500896785 /* Constant.swift */; };
+		48A699031FB2F90600896785 /* DateConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698FA1FB2F90500896785 /* DateConstant.swift */; };
+		48A699041FB2F90600896785 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698FB1FB2F90500896785 /* ImageConstant.swift */; };
+		48A699051FB2F90600896785 /* ResponseConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A698FC1FB2F90500896785 /* ResponseConstant.swift */; };
+		48A699101FB2F98600896785 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6990E1FB2F98600896785 /* Space.swift */; };
+		48A699111FB2F98600896785 /* SpaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6990F1FB2F98600896785 /* SpaceList.swift */; };
+		48A699161FB2FDF000896785 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A699151FB2FDF000896785 /* SharedClass.swift */; };
+		48A6991A1FB2FF4400896785 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A699181FB2FF4400896785 /* Date.swift */; };
+		48A6991B1FB2FF4400896785 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A699191FB2FF4400896785 /* Extension.swift */; };
+		74F3514E50323DAC56F4227D /* Pods_RvWebserviceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E782BABD68BB0DC15FC95148 /* Pods_RvWebserviceManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A698CD1FB2F77C00896785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A698B01FB2F77C00896785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A698B71FB2F77C00896785;
+			remoteInfo = RvWebserviceManager;
+		};
+		48A698D81FB2F77C00896785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A698B01FB2F77C00896785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A698B71FB2F77C00896785;
+			remoteInfo = RvWebserviceManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48A698B81FB2F77C00896785 /* RvWebserviceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RvWebserviceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A698BB1FB2F77C00896785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A698C01FB2F77C00896785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A698C21FB2F77C00896785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A698C51FB2F77C00896785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48A698C71FB2F77C00896785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A698CC1FB2F77C00896785 /* RvWebserviceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RvWebserviceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A698D01FB2F77C00896785 /* RvWebserviceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RvWebserviceManagerTests.swift; sourceTree = "<group>"; };
+		48A698D21FB2F77C00896785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A698D71FB2F77C00896785 /* RvWebserviceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RvWebserviceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A698DB1FB2F77C00896785 /* RvWebserviceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RvWebserviceManagerUITests.swift; sourceTree = "<group>"; };
+		48A698DD1FB2F77C00896785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A698ED1FB2F87500896785 /* SpaceListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceListController.swift; sourceTree = "<group>"; };
+		48A698F01FB2F8D000896785 /* SharedWebServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedWebServiceClass.swift; sourceTree = "<group>"; };
+		48A698F11FB2F8D000896785 /* RvWebserviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RvWebserviceManager.swift; sourceTree = "<group>"; };
+		48A698F41FB2F90500896785 /* MessageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageConstant.swift; sourceTree = "<group>"; };
+		48A698F51FB2F90500896785 /* TagIDConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagIDConstant.swift; sourceTree = "<group>"; };
+		48A698F61FB2F90500896785 /* UIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
+		48A698F71FB2F90500896785 /* RequestConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConstant.swift; sourceTree = "<group>"; };
+		48A698F81FB2F90500896785 /* ObjectConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectConstant.swift; sourceTree = "<group>"; };
+		48A698F91FB2F90500896785 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		48A698FA1FB2F90500896785 /* DateConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConstant.swift; sourceTree = "<group>"; };
+		48A698FB1FB2F90500896785 /* ImageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		48A698FC1FB2F90500896785 /* ResponseConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseConstant.swift; sourceTree = "<group>"; };
+		48A6990E1FB2F98600896785 /* Space.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		48A6990F1FB2F98600896785 /* SpaceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceList.swift; sourceTree = "<group>"; };
+		48A699151FB2FDF000896785 /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		48A699181FB2FF4400896785 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		48A699191FB2FF4400896785 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8A75D6B78FB6BC9C1692FCD2 /* Pods-RvWebserviceManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RvWebserviceManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RvWebserviceManager/Pods-RvWebserviceManager.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC502A4AF4D51B8046761D5 /* Pods-RvWebserviceManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RvWebserviceManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-RvWebserviceManager/Pods-RvWebserviceManager.release.xcconfig"; sourceTree = "<group>"; };
+		E782BABD68BB0DC15FC95148 /* Pods_RvWebserviceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RvWebserviceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A698B51FB2F77C00896785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F3514E50323DAC56F4227D /* Pods_RvWebserviceManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698C91FB2F77C00896785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698D41FB2F77C00896785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A698AF1FB2F77C00896785 = {
+			isa = PBXGroup;
+			children = (
+				48A698BA1FB2F77C00896785 /* RvWebserviceManager */,
+				48A698CF1FB2F77C00896785 /* RvWebserviceManagerTests */,
+				48A698DA1FB2F77C00896785 /* RvWebserviceManagerUITests */,
+				48A698B91FB2F77C00896785 /* Products */,
+				90DF5485DEF965C123C16CD2 /* Pods */,
+				C9D96750597C98593632D04B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48A698B91FB2F77C00896785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A698B81FB2F77C00896785 /* RvWebserviceManager.app */,
+				48A698CC1FB2F77C00896785 /* RvWebserviceManagerTests.xctest */,
+				48A698D71FB2F77C00896785 /* RvWebserviceManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A698BA1FB2F77C00896785 /* RvWebserviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				48A698BB1FB2F77C00896785 /* AppDelegate.swift */,
+				48A699171FB2FF4400896785 /* Extensions */,
+				48A699131FB2FDAB00896785 /* Helper */,
+				48A698E91FB2F85700896785 /* Constants */,
+				48A698EB1FB2F85700896785 /* Models */,
+				48A698EC1FB2F85700896785 /* Utilities */,
+				48A698EA1FB2F85700896785 /* ViewController */,
+				48A698BF1FB2F77C00896785 /* Main.storyboard */,
+				48A698C21FB2F77C00896785 /* Assets.xcassets */,
+				48A698C41FB2F77C00896785 /* LaunchScreen.storyboard */,
+				48A698C71FB2F77C00896785 /* Info.plist */,
+			);
+			path = RvWebserviceManager;
+			sourceTree = "<group>";
+		};
+		48A698CF1FB2F77C00896785 /* RvWebserviceManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A698D01FB2F77C00896785 /* RvWebserviceManagerTests.swift */,
+				48A698D21FB2F77C00896785 /* Info.plist */,
+			);
+			path = RvWebserviceManagerTests;
+			sourceTree = "<group>";
+		};
+		48A698DA1FB2F77C00896785 /* RvWebserviceManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48A698DB1FB2F77C00896785 /* RvWebserviceManagerUITests.swift */,
+				48A698DD1FB2F77C00896785 /* Info.plist */,
+			);
+			path = RvWebserviceManagerUITests;
+			sourceTree = "<group>";
+		};
+		48A698E91FB2F85700896785 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				48A698F91FB2F90500896785 /* Constant.swift */,
+				48A698FA1FB2F90500896785 /* DateConstant.swift */,
+				48A698FB1FB2F90500896785 /* ImageConstant.swift */,
+				48A698F41FB2F90500896785 /* MessageConstant.swift */,
+				48A698F81FB2F90500896785 /* ObjectConstant.swift */,
+				48A698F71FB2F90500896785 /* RequestConstant.swift */,
+				48A698FC1FB2F90500896785 /* ResponseConstant.swift */,
+				48A698F51FB2F90500896785 /* TagIDConstant.swift */,
+				48A698F61FB2F90500896785 /* UIConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		48A698EA1FB2F85700896785 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48A698ED1FB2F87500896785 /* SpaceListController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		48A698EB1FB2F85700896785 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48A6990E1FB2F98600896785 /* Space.swift */,
+				48A6990F1FB2F98600896785 /* SpaceList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48A698EC1FB2F85700896785 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				48A698EF1FB2F8D000896785 /* WebserviceClass */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		48A698EF1FB2F8D000896785 /* WebserviceClass */ = {
+			isa = PBXGroup;
+			children = (
+				48A698F01FB2F8D000896785 /* SharedWebServiceClass.swift */,
+				48A698F11FB2F8D000896785 /* RvWebserviceManager.swift */,
+			);
+			path = WebserviceClass;
+			sourceTree = "<group>";
+		};
+		48A699131FB2FDAB00896785 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				48A699141FB2FDCA00896785 /* SharedClass */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		48A699141FB2FDCA00896785 /* SharedClass */ = {
+			isa = PBXGroup;
+			children = (
+				48A699151FB2FDF000896785 /* SharedClass.swift */,
+			);
+			path = SharedClass;
+			sourceTree = "<group>";
+		};
+		48A699171FB2FF4400896785 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48A699181FB2FF4400896785 /* Date.swift */,
+				48A699191FB2FF4400896785 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90DF5485DEF965C123C16CD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A75D6B78FB6BC9C1692FCD2 /* Pods-RvWebserviceManager.debug.xcconfig */,
+				DBC502A4AF4D51B8046761D5 /* Pods-RvWebserviceManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9D96750597C98593632D04B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E782BABD68BB0DC15FC95148 /* Pods_RvWebserviceManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A698B71FB2F77C00896785 /* RvWebserviceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A698E01FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManager" */;
+			buildPhases = (
+				60F650CFDBD96BC500E5466B /* [CP] Check Pods Manifest.lock */,
+				48A698B41FB2F77C00896785 /* Sources */,
+				48A698B51FB2F77C00896785 /* Frameworks */,
+				48A698B61FB2F77C00896785 /* Resources */,
+				4449ADE549003D95CAEEFD83 /* [CP] Embed Pods Frameworks */,
+				A82ABE6352791354973A624A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RvWebserviceManager;
+			productName = RvWebserviceManager;
+			productReference = 48A698B81FB2F77C00896785 /* RvWebserviceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A698CB1FB2F77C00896785 /* RvWebserviceManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A698E31FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManagerTests" */;
+			buildPhases = (
+				48A698C81FB2F77C00896785 /* Sources */,
+				48A698C91FB2F77C00896785 /* Frameworks */,
+				48A698CA1FB2F77C00896785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A698CE1FB2F77C00896785 /* PBXTargetDependency */,
+			);
+			name = RvWebserviceManagerTests;
+			productName = RvWebserviceManagerTests;
+			productReference = 48A698CC1FB2F77C00896785 /* RvWebserviceManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48A698D61FB2F77C00896785 /* RvWebserviceManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A698E61FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManagerUITests" */;
+			buildPhases = (
+				48A698D31FB2F77C00896785 /* Sources */,
+				48A698D41FB2F77C00896785 /* Frameworks */,
+				48A698D51FB2F77C00896785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A698D91FB2F77C00896785 /* PBXTargetDependency */,
+			);
+			name = RvWebserviceManagerUITests;
+			productName = RvWebserviceManagerUITests;
+			productReference = 48A698D71FB2F77C00896785 /* RvWebserviceManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A698B01FB2F77C00896785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Softweb Solutions";
+				TargetAttributes = {
+					48A698B71FB2F77C00896785 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					48A698CB1FB2F77C00896785 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48A698B71FB2F77C00896785;
+					};
+					48A698D61FB2F77C00896785 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48A698B71FB2F77C00896785;
+					};
+				};
+			};
+			buildConfigurationList = 48A698B31FB2F77C00896785 /* Build configuration list for PBXProject "RvWebserviceManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A698AF1FB2F77C00896785;
+			productRefGroup = 48A698B91FB2F77C00896785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A698B71FB2F77C00896785 /* RvWebserviceManager */,
+				48A698CB1FB2F77C00896785 /* RvWebserviceManagerTests */,
+				48A698D61FB2F77C00896785 /* RvWebserviceManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A698B61FB2F77C00896785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A698C61FB2F77C00896785 /* LaunchScreen.storyboard in Resources */,
+				48A698C31FB2F77C00896785 /* Assets.xcassets in Resources */,
+				48A698C11FB2F77C00896785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698CA1FB2F77C00896785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698D51FB2F77C00896785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4449ADE549003D95CAEEFD83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RvWebserviceManager/Pods-RvWebserviceManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RvWebserviceManager/Pods-RvWebserviceManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F650CFDBD96BC500E5466B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RvWebserviceManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82ABE6352791354973A624A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RvWebserviceManager/Pods-RvWebserviceManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A698B41FB2F77C00896785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A698FF1FB2F90600896785 /* UIConstant.swift in Sources */,
+				48A699051FB2F90600896785 /* ResponseConstant.swift in Sources */,
+				48A699101FB2F98600896785 /* Space.swift in Sources */,
+				48A698EE1FB2F87500896785 /* SpaceListController.swift in Sources */,
+				48A698FE1FB2F90600896785 /* TagIDConstant.swift in Sources */,
+				48A699111FB2F98600896785 /* SpaceList.swift in Sources */,
+				48A6991A1FB2FF4400896785 /* Date.swift in Sources */,
+				48A699011FB2F90600896785 /* ObjectConstant.swift in Sources */,
+				48A699001FB2F90600896785 /* RequestConstant.swift in Sources */,
+				48A6991B1FB2FF4400896785 /* Extension.swift in Sources */,
+				48A698F21FB2F8D000896785 /* SharedWebServiceClass.swift in Sources */,
+				48A699161FB2FDF000896785 /* SharedClass.swift in Sources */,
+				48A698F31FB2F8D000896785 /* RvWebserviceManager.swift in Sources */,
+				48A699041FB2F90600896785 /* ImageConstant.swift in Sources */,
+				48A699021FB2F90600896785 /* Constant.swift in Sources */,
+				48A698FD1FB2F90600896785 /* MessageConstant.swift in Sources */,
+				48A699031FB2F90600896785 /* DateConstant.swift in Sources */,
+				48A698BC1FB2F77C00896785 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698C81FB2F77C00896785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A698D11FB2F77C00896785 /* RvWebserviceManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A698D31FB2F77C00896785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A698DC1FB2F77C00896785 /* RvWebserviceManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A698CE1FB2F77C00896785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A698B71FB2F77C00896785 /* RvWebserviceManager */;
+			targetProxy = 48A698CD1FB2F77C00896785 /* PBXContainerItemProxy */;
+		};
+		48A698D91FB2F77C00896785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A698B71FB2F77C00896785 /* RvWebserviceManager */;
+			targetProxy = 48A698D81FB2F77C00896785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48A698BF1FB2F77C00896785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A698C01FB2F77C00896785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A698C41FB2F77C00896785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A698C51FB2F77C00896785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A698DE1FB2F77C00896785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A698DF1FB2F77C00896785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A698E11FB2F77C00896785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A75D6B78FB6BC9C1692FCD2 /* Pods-RvWebserviceManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RvWebserviceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48A698E21FB2F77C00896785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC502A4AF4D51B8046761D5 /* Pods-RvWebserviceManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RvWebserviceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48A698E41FB2F77C00896785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = RvWebserviceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RvWebserviceManager.app/RvWebserviceManager";
+			};
+			name = Debug;
+		};
+		48A698E51FB2F77C00896785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = RvWebserviceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RvWebserviceManager.app/RvWebserviceManager";
+			};
+			name = Release;
+		};
+		48A698E71FB2F77C00896785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = RvWebserviceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RvWebserviceManager;
+			};
+			name = Debug;
+		};
+		48A698E81FB2F77C00896785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85Z6DRR6M5;
+				INFOPLIST_FILE = RvWebserviceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softweb.RvWebserviceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RvWebserviceManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A698B31FB2F77C00896785 /* Build configuration list for PBXProject "RvWebserviceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A698DE1FB2F77C00896785 /* Debug */,
+				48A698DF1FB2F77C00896785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A698E01FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A698E11FB2F77C00896785 /* Debug */,
+				48A698E21FB2F77C00896785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A698E31FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A698E41FB2F77C00896785 /* Debug */,
+				48A698E51FB2F77C00896785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A698E61FB2F77C00896785 /* Build configuration list for PBXNativeTarget "RvWebserviceManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A698E71FB2F77C00896785 /* Debug */,
+				48A698E81FB2F77C00896785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A698B01FB2F77C00896785 /* Project object */;
+}
