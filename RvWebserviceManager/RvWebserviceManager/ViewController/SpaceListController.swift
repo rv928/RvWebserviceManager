@@ -24,7 +24,7 @@ class SpaceListController: UIViewController {
     // MARK:- Webservice Methods
     
     func callwebserviceForFetchSpaceList() {
-        
+        //added
         SharedClass.sharedInstance.showProgressHUD(true)
         
         RvWebserviceManager.sharedManager.fetchData(self, dictparamters: nil, APIName: AppConstants.webserviceConstants.API_GETDEVICES, HTTPType: "GET", completion: {(responseDictionary:[String:AnyObject]) -> Void in
